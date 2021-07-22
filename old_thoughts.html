@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- Based on Ashley theme by Brent Jackson (http://jxnblk.com) //-->
+<!-- Heavily modified by Mayuresh Kathe //-->
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/ico" href="favicon.ico">
+		<title>Mayuresh Kathe : Writings</title>
+		<meta name="description" content="Mayuresh Kathe's Writings" />
+		<meta name="keywords" content="scientific, wisdom" />
+		<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+		<meta name=viewport content='width=device-width, initial-scale=1'>
+		<style type="text/css">
+			* { margin: 0; padding: 0; }
+			@font-face { font-family: 'Gentium Book Basic'; font-style: normal; font-weight: 400; src: local('Gentium Book Basic'), local('GentiumBookBasic'), url(https://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v3/IRFxB2matTxrjZt6a3FUnsiUQA3_wO-qQTJfqhvSKS0.woff) format('woff'); }
+			body { color: #444; background: #fff; font-family: 'Gentium Book Basic', Georgia, serif; font-size: 100%; line-height: 1.25; font-weight: 400; text-align: justify; }
+			h1, h2, .h1, .h2 { font-weight: 400; line-height: 1.25; margin-top: .5em; }
+			h1, .h1 { font-size: 24px; }
+			h2, .h2 { font-size: 16px; }
+			h3, .h3 { font-size: 12px; }
+			h1+h2 { margin-top: 0; }
+			p, .p, ul, ol { font-size: 10px; }
+			td { font-size: 10px; }
+			small, .small { font-size: 6px; }
+			strong, .strong { font-weight: 700; }
+			p, ul, ol { margin-top: 1em; }
+			@media screen and (min-width: 480px) {
+				h1, .h1 { font-size: 40px; }
+				h2, .h2 { font-size: 24px; }
+				h3, .h3 { font-size: 16px; }
+				p, .p, ul, ol { font-size: 20px; }
+				td { font-size: 20px; }
+				small, .small { font-size: 16px;}
+			}            
+			@media screen and (min-width: 640px) {
+				h1, .h1 { font-size: 56px; }
+				h2, .h2 { font-size: 40px; } 
+				h3, .h3 { font-size: 24px; }
+				td { font-size: 20px; }
+			}
+			.wrap { width: 90%; padding: 0 5%; max-width: 48em; margin: 0 auto; overflow: hidden; }
+			story { margin-top: 2em; }
+			a { color: #099; text-decoration: none; }
+			a:hover { text-decoration: underline; }
+			header { width: 90%; padding: 2em 5% 0; max-width: 48em; margin: 0 auto; overflow: hidden; text-align: center; }
+			header:after { clear: both; content: '.'; display: block; height: 0; visibility: hidden; }
+			.logo { float: left; margin-right: 1em; }
+			header h1, header p { margin: 0; }
+			header a, a.post-title { color: #444; }
+			a.post-title:hover { text-decoration: none; color: #099; }
+			header a:hover { text-decoration: none; }
+			.post img, .photoset, .photoset img, .photoset_row { max-width: 100%; }
+			.post iframe, .video object { width: 100%; max-width: 100%; }
+			.post blockquote { padding-left: 1em; border-left: 1px solid #ddd; }
+			.post ul, .post ol { margin-left: 2em; }
+			.post footer ul, .post footer ol { margin: 0; }
+			.quote blockquote { padding: 0; border: none; font-style: italic; }
+			.quote .source { text-align: right; }
+			.post footer { padding: 0; margin-top: 1em; color: #aaa; font-style: italic; }
+			.post footer a { color: #aaa; }
+			.post footer a:hover { color: #999; }
+			.post footer .source { float: right; margin-right: 0; }
+			.post footer ul li { display: inline-block; margin-right: 1em; }
+			.tags { margin-top: 1em; }
+			.pagination { margin-top: 4em; text-align: center; line-height: 3em; }
+			.pagination:after { clear: both; content: '.'; display: block; height: 0; visibility: hidden; }
+			.pagination a { display: block; height: 3em; padding: 0 1em; border-radius: 0.25em; }
+			.pagination a:hover { background: #eee; text-decoration: none; }
+			.pagination .previous { float: left; }
+			.pagination .next { float: right; }
+			footer.wrap { padding-top: 2em; padding-bottom: 2em; }
+			ul.pages { list-style: none; }
+			ul.pages li { display: inline-block; margin-right: 1em; }
+			ul.pages li a { display: block; height: 3em; line-height: 3em; }
+
+			/* Permalink Notes */
+			aside.notes { margin-top: 4em; }
+			ol.notes { list-style: none; margin-top: 1em; border: 1px solid #ddd; border-radius: 0.25em; }
+			ol.notes, ol.notes a { color: #aaa; }
+			li.note { display: block; line-height: 2em; padding: 0.5em 1em; border-bottom: 1px solid #ddd; }
+			li.note:last-child { border: none; }
+			ol.notes li.note img.avatar { display: block; float: left; width: 2em; height: 2em; margin-right: 1em; border-radius: 0.25em; }
+			.notes .action a { color: #444; }
+			.action { display: block; margin-left: 3em; }
+			.notes blockquote { line-height: 1.25; margin-left: 3em; }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Thoughts of a deeper kind</h1>
+			<p class="small">The more I dig, the deeper I go, the more I realize, how little I know</p>
+		</header>
+
+		<div class="content wrap">
+			<section class="posts">
+<!--
+				<article class="post text">
+					<h2>Title</h2>
+					<p>
+					
+					</p>
+				</article>
+//-->
+
+				<article class="post text">
+					<p>
+						Find below a selected set of essays on some of my thoughts of a deeper kind.
+					</p>
+				</article>
+
+
+				<article class="post text">
+					<h2>Never Argue with Morons</h2>
+					<p>The old adage;</p>
+					<blockquote>
+						Never Argue with Morons,<br />
+						They&rsquo;ll drag you down to their level,<br />
+						and then beat you with experience.<br />
+					</blockquote>
+					<p>It even applies to generally negative people, extremists and well, people at a lower level of intelligence than you.</p>
+					<p>It also applies to activities other than arguments, especially, fighting of most types.</p>
+					<p>Why?</p>
+					<p>As stated above, you are going to get beaten if you fight at their level, and if you don&rsquo;t you&rsquo;re going to be labeled a bully, so to avoid the labeling you move down to their level and naturally get beaten.</p>
+					<p>What you do after you get beaten is, like any self respecting smart person start learning their ways and launch an attack again.</p>
+					<p>Well, since they already have a lot more experience than you, you get beaten again.</p>
+					<p>With that defeat, you learn some more and you attack again, but you get beaten again.</p>
+					<p>This learning and attacking cycle continues till the day you finally defeat them.</p>
+					<p>But, that victory against them somehow has become irrelevant, because you've already <u>become them</u>.</p>
+					<p>The best course of action against such an adversary is to swoop down on them rapidly and eliminate them quickly, yes, you get labeled a bully, but atleast you have the satisfaction of having defeated them on your own terms.</p>
+				</article>
+
+				<article class="post text">
+					<h2>Time</h2>
+					<p>Time is quite a curious entity.</p>
+					<p>There&rsquo;s either too little of it or too much of it.</p>
+					<p>Following is an extract from my rumination on the nature of &lsquo;time&rsquo;.</p>
+					<p>Basically, time has a constant decay rate.</p>
+					<p>So, if time passes at a constant pace, how come some people have too less time in a day and for some a day seems never to end?</p>
+					<img src='timeTheory.jpg' border='0' align='right' padding="5px">
+					<p>Refer the diagram on the right.</p>
+					<p>The angle between line &lsquo;OA&rsquo; and line &lsquo;OB&rsquo; is the same anywhere within the sector.</p>
+					<p>Lets consider &lsquo;that&rsquo; angle &theta; to be &lsquo;Time&rsquo;</p>
+					<p>Line &lsquo;OA&rsquo; would represent an event in the present and line &lsquo;OB&rsquo; would represent an event in the future.</p>
+					<p>If a human is engaged in an activity starting at &lsquo;OA&rsquo; the real time would be the same to complete it at &lsquo;OB&rsquo;.</p>
+					<p>But, sometimes, humans, when engaged in certain activities find time passing too slowly or too quickly.</p>
+					<p>The reason for this phenomenon can be explained if we realize that passage of time for humans is based on their perception of it.</p>
+					<p>Even though &theta; is constant anywhere within the sector &lsquo;OAB&rsquo;, the length of arcs &lsquo;AB&rsquo; and &lsquo;CD&rsquo; is different.</p>
+					<p>Those arcs, i.e. &lsquo;AB&rsquo; and &lsquo;CD&rsquo; are the perception of time among humans.</p>
+					<p>So what are the points &lsquo;A&rsquo; and &lsquo;C&rsquo; on line &lsquo;OA&rsquo;?</p>
+					<p>The points &lsquo;A&rsquo; and &lsquo;C&rsquo; represent the level of concentration or focus exerted by the human at that particular moment.</p>
+					<p>The more focused the human is, the shorter is the distance from &lsquo;O&rsquo; and consequently shorter is the perception of passage of time.</p>
+					<p>What is the reason for the difference in lengths of &lsquo;OC&rsquo; and &lsquo;OA&rsquo;?</p>
+					<p>Thoughts.</p>
+					<p>Too many thoughts would increase the length and hence the perception of passage of time.</p>
+					<p>What is &lsquo;O&rsquo;?</p>
+					<p>&lsquo;O&rsquo; would be the place within human conciousness where no thoughts exist, it is the Zen state of &ldquo;No Mind&rdquo;.</p>
+					<p>It is the point where humans become at one with themselves, and that is when they can perform the most impossible tasks almost effortlessly.</p>
+				</article>
+
+				<article class="post text">
+					<h2>Infinity is Relative</h2>
+					<p>I've consistently heard the phrase &ldquo;The Universe is Infinite&rdquo;.</p>
+					<p>Is it really so?</p>
+					<p>Let&rsquo;s take an example, suppose there&rsquo;s a bookstore covering an area of 5,000 square feet.</p>
+					<p>There are rows of books on almost every topic known to man.</p>
+					<p>All those rows are well categorised and tagged.</p>
+					<p>Let&rsquo;s introduce a child of 4 years old into the book store, one who doesn&rsquo;t yet know how to read, and ask him to find a colouring activity book.</p>
+					<p>The child would be overwhealmed by the sheer enormity of the book store.</p>
+					<p>The child would get the perception that the book store is infinite.</p>
+					<p>Now, let&rsquo;s introduce a well educated adult into the book store and ask him to find a book on the history of naval warfare.</p>
+					<p>That person would not feel overwhealmed by the size of the book store, he might not be in a position to locate the book, but he would know how to atleast navigate himself to a location where the book would probably be found.</p>
+					<p>But, take the case of the book store manager, he with his detailed knowledge of the book store as well as access to his cataloging tools would be able to find any book in very little time and with minimal effort.</p>
+					<p>What is infinite to a child is within reach for a regular adult, but certainly under control for the store manager.</p>
+					<p>Infinity is relative.</p>
+				</article>
+
+				<article class="post text">
+					<h2>Vegetarianism and the Feel Good Factor</h2>
+					<p>I follow a dual dietary regime, I&rsquo;m in the rare position of being capable of surviving solely on vegetarian food for extended periods of time, but also have the capacity to effortlessly digest non-vegetarian cuisine.</p>
+					<p>I've heard a lot about how vegetarianism leads to peaceful thoughts and a sense of emotional well being.</p>
+					<p>Is that really so?</p>
+					<p>A little digging would reveal a fact unknown to most people, Adolf Hitler was a vegetarian.</p>
+				</article>
+
+				<article class="post text">
+					<h2>Fuzziness</h2>
+					<p>There has been a wave of fuzziness sweeping the world, especially intensely for the past decade.</p>
+					<p>People have given up being rational.</p>
+					<p>People have started going entirely with their feelings without pausing to understand what is it that they are feeling and why.</p>
+					<p>People have started believing in fuzzy thinking, they claim that the world isn&rsquo;t clear, they claim that the picture is very fuzzy and hence requires fuzzy thinking to cope and adapt to it.</p>
+					<p>What people don&rsquo;t realise is that they aren&rsquo;t able to see the picture clearly because they are staring at it too closely, they are too deeply involved in life.</p>
+					<p>What needs to be done is to step back, away from the picture a bit, and suddenly that which has been fuzzy before would be clear and distinct.</p>
+					<p>To the unknowledgeable ones, sunlight is white, but to the ones who are in the know, its common knowledge that sunlight is actually composed of seven distinct colours.</p>
+					<p>It's the introduction of a tool called the prism which reveals that secret.</p>
+					<p>For humans, that tool is courage, it requires courage to see the truth and a phenomenal amount of inner strength to understand and accept it.</p>
+					<p>This is the Aquarian age, an age which is supposed to dispel all myths, eliminate misconceptions and bring clarity where fuzziness once reigned.</p>
+					<p>Humanity needs to get out of its comfort zone to come out of the darkness of ignorance, struggle hard to be rational, struggle hard to achieve clarity, absolute clarity, because a clear mind is the only one which can see the beginning of the path back to the universal source.</p>
+				</article>
+
+				<article class="post text">
+					<h2>On Violence</h2>
+					<p>There has been an explosion of the peace movement in recent years.</p>
+					<p>It started with the teachings of Buddha and re-surfaced around 1915 when Mr. Mohandas Gandhi initiated the non-violent struggle in India against excessive land-tax and discrimination by the British.</p>
+					<p>The movement caught momentum during the Indian freedom struggle and got world wide attention when India supposedly achieved its freedom through those non-violent means.</p>
+					<p>Later, various groups across the world adopted that philosophy, they led peace marches, wrote poetry, music, articles and books about it.</p>
+					<p>But frankly, is peace a reality?</p>
+					<p>Can violence be totally eliminated? uprooted? thrown out completely?</p>
+					<p>To answer these questions, we must first understand what exactly is violence.</p>
+					<p>Violence is the result of a minimum of two forces trying to overcome and overpower one another.</p>
+					<p>Look around you, the Sun is constantly going through a process of violent combustion, waves are constantly crashing onto sea shores, living beings are consuming nutrients from sources which are more passive than them and assimilating them (which is again quite violent), western science has finally acknowledged what Vedic literature has known for thousands of years, that the universe began through a process called the <u>Big Bang</u>.</p>
+					<p>There's a war going on constantly, on some level or another, its because the very nature of nature is violent.</p>
+					<p>And why is that?</p>
+					<p>It's because nature likes to achieve a state of balance.</p>
+					<p>It's because;</p>
+					<blockquote>
+					The ultimate objective of all war is peace.<br />
+					&nbsp;&nbsp;- Sun Tzu, The Art of War
+					</blockquote>
+					<p>Peace!</p>
+					<p>Peace is good, it leads to higher level emotions like love, but reflect on love a bit more and you'll realise that the ultimate physical expression of love, the act of making love, if done properly, always ends violently.</p>
+					<p>Have you ever heard any man or woman say, &ldquo;I had a peaceful orgasm&rdquo;.</p>
+					<p>Instead of struggling hard to eradicate violence, humanity should learn to accept it as a fundamental state of existence.</p>
+					<p>What humanity should focus more on, is to <u>manage</u> violence.</p>
+					<p>Nuclear fission is violent.</p>
+					<p>Unmanaged nuclear fission gives us the atom bomb.</p>
+					<p>But, managed nuclear fission gives us power to run our lives smoothly.</p>
+				</article>
+
+				<article class="post text">
+					<h2>Your Wish is my Command</h2>
+					<p>New age spiritualists propogate the usage of thought level commands to attract what ever an individual wishes.</p>
+					<p>They claim that its very similar to going through a catalogue and choosing items you wish to have and then focusing on them hard enough till they manifest for you.</p>
+					<p>They also claim that there&rsquo;s no need to worry about the stock running out as the universe has abundance.</p>
+					<p>And finally they claim that no two people could possibly wish to have the exact same thing.</p>
+					<p>The problem out here is that, these new age spiritualists either aren&rsquo;t aware of the fact or refuse to accept the fact that the universe is a closed system.</p>
+					<p>As has been mentioned before, the universe is not infinite, and hence it has its limits, and anything which has limits tends to keep its energy in a state of equilibrium.</p>
+					<p>When-ever a person engages in these thought level commands to attract something to him, he should remember that he is depleting the energy resource of the universe, and the universe will naturally take something back from the person to maintain its equilibrium.</p>
+					<p>Simply put, remember the adage;</p>
+					<blockquote>
+					To get something, you've to give something.
+					</blockquote>
+					<p>Finally, humans should understand that on the scale of things as grand as this universe, humanity is an insignificant manifestation of matter, energy and thought, learn to be good the universe you are living in.</p>
+					<p>Rather than making a <u>command</u> to the universe, make a <u>request</u>, it will work better, but do remember, you are going to lose something in return, sometimes something you wouldn't be willing to part with.</p>
+				</article>
+
+				<article class="post text">
+					<h2>Adapt to the Change!</h2>
+					<p>There's wisdom in the words, &ldquo;better to migrate rather than adapt&rdquo;.</p>
+					<p>Look at the Eskimos and Australian Aborigines, they all opted to adapt and got left behind the rest of the world which had chosen to &ldquo;migrate&rdquo;.</p>
+				</article>
+
+			</section>
+		</div>
+	
+		<footer class="small wrap">	
+			<p class="small">Content Copyright &copy; Mayuresh Kath&#233;. All rights reserved.</p>
+		</footer>
+
+	</body>
+</html>
