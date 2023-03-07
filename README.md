@@ -1,7 +1,7 @@
 
 ## About
 
-I am Mayuresh Kathe (मयुरेश काठे); a tinkerer, an engineer, and a software programmer from Mumbai, India.
+I am Kathe (काठे); a tinkerer, an engineer, and a software programmer from Mumbai, India.
 
 Born in a Marathi speaking Indian Hindu family of the Somavaunshiya Kshatriya Paathaare clan of native Bombayites, I bear Chitaapaavan Konkanastha Brahmin lineage on my mother's side.
 
