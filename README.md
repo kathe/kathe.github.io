@@ -10,3 +10,5 @@ Tinkering came naturally to me which my parents nurtured by gifting me [Meccano]
 My interest in software programming was the result of being exposed to the craft as a 15 year old while at St John's High School. The exhilarating experience of creating something tangible out of a bunch of abstractions far removed from physical limitations was so overwhelming that I pursued and successfully completed a Professional Diploma in Network Centered Computing from the National Institute of Information Technology.
 
 I spent over 30 years programming computers for fun and as a means to earn my livelihood, beginning my career with Mumbai-based [Larsen & Toubro Ltd](https://larsentoubro.com/), followed by a string of start-up companies in Mumbai; Tisya (now defunct), [Pinstorm](https://www.pinstorm.com/), [Cleartrip](https://www.cleartrip.com/) and Ticketvala (acquired by [MakeMyTrip](https://www.makemytrip.com/)).
+
+My first boss had difficulty pronouncing my first name and prefered instead to address me as Kathé, and that has stuck, hence the domain name.
