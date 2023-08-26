@@ -11,4 +11,4 @@ My interest in software programming was the result of being exposed to the craft
 
 I spent over 30 years programming computers for fun and as a means to earn my livelihood, beginning my career with Mumbai-based [Larsen & Toubro Ltd](https://larsentoubro.com/), followed by a string of start-up companies in Mumbai; Tisya (now defunct), [Pinstorm](https://www.pinstorm.com/), [Cleartrip](https://www.cleartrip.com/) and Ticketvala (acquired by [MakeMyTrip](https://www.makemytrip.com/)).
 
-My first boss had difficulty pronouncing my first name and prefered instead to address me as Kathé, and that has stuck, hence the domain name.
+My first boss had difficulty pronouncing my first name and prefered instead to address me by my surname; Kathé, and that has stuck, hence the domain name.
